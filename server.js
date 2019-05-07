@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://bdixon850:senior07@ds131954.mlab.com:31954/heroku_6342bv4s")
+mongoose.connect(process.env.MONGODB_URI || "mongodb://bdixon850:senior07@ds153096.mlab.com:53096/heroku_dgx5qbvp")
     .then(() => {
         console.log('Successfully connected to Mongo DB')
     })
